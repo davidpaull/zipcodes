@@ -1,9 +1,9 @@
 # zipcodes
 
 Fairly simply script that was made to retrieve lat, lon from a zipcode.\
-The data itself may be incomplete
-
-I retrieved the csv from opendatasoft (full-zips.csv)
+The data itself may be incomplete?\
+(full-zips.csv: contains 43,192 lines - according to wikipedia, the US has 41,702 zip codes as of Oct 2019) - it was retrieved from opendatasoft.  I did find some missing zipcodes in the data which I added manually where possible.\
+with the following changes:
 
 Changes to the full-zips.csv\
   Added some zip codes that I found were missing to the data\
